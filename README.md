@@ -23,12 +23,13 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 *Ready to use widgets or even widget bundles.*
 
 * [Collibellex-Thingsboard-Widgets](https://github.com/rossmann-engineering/Collibellex-Thingsboard-Widgets) - widget library for Thingsboard CE/PE 3.0+
+* [AbCthings widgets](https://github.com/AbCthings/thingsboard-widgets) - chart and gauge widgets
 
 ## Dashboards
 
 *Ready to use dashboards.*
 
-* [TBD](https://example.com/) - Waiting for your contibution.
+* [Live-USB-Webcam-Streaming](https://github.com/shiyazt/Live-USB-Webcam-Streaming-on-ThingsBoard-IoT-Platform) - stream USB Webcam to Thingsboard and detects the human faces
 
 ## Rule chains
 
