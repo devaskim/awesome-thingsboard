@@ -1,0 +1,147 @@
+{
+  "ruleChain": {
+    "additionalInfo": {
+      "description": ""
+    },
+    "name": "Login",
+    "type": "CORE",
+    "firstRuleNodeId": null,
+    "root": false,
+    "debugMode": false,
+    "configuration": null
+  },
+  "metadata": {
+    "firstNodeIndex": 1,
+    "nodes": [
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 483,
+          "layoutY": 205
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "Message from metadata",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "var newMsg = 'originalMessage' in metadata ? JSON.parse(metadata.originalMessage) : { msg: msg, metadata: metadata, msgType: msgType };\n\nif ('token' in msg) {\n    newMsg.metadata.token = msg.token;\n}\nif ('refreshToken' in msg) {\n    newMsg.metadata.refreshToken = msg.refreshToken;\n}\n\nreturn newMsg;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 107,
+          "layoutY": 40
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "Message to metadata",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "metadata.originalMessage = JSON.stringify({ msg: msg, metadata: metadata, msgType: msgType });\nreturn { msg: msg, metadata: metadata, msgType: msgType };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 429,
+          "layoutY": 359
+        },
+        "type": "org.thingsboard.rule.engine.flow.TbRuleChainOutputNode",
+        "name": "End",
+        "debugMode": false,
+        "configuration": {
+          "version": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 675,
+          "layoutY": 44
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "Login",
+        "debugMode": true,
+        "configuration": {
+          "restEndpointUrlPattern": "THINGSBOARD_URL/api/auth/login",
+          "requestMethod": "POST",
+          "useSimpleClientHttpFactory": false,
+          "ignoreRequestBody": null,
+          "enableProxy": false,
+          "useSystemProxyProperties": false,
+          "proxyScheme": null,
+          "proxyHost": null,
+          "proxyPort": 0,
+          "proxyUser": null,
+          "proxyPassword": null,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0,
+          "credentials": {
+            "type": "anonymous"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 377,
+          "layoutY": 40
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "Login credentials",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "var loginCredentials = {\n  \"username\": \"THINGSBOARD_ACCOUNT_EMAIL\",\n  \"password\": \"THINGSBOARD_ACCOUNT_PASSWORD\"\n};\n\nreturn {msg: loginCredentials, metadata: metadata, msgType: msgType};"
+        }
+      }
+    ],
+    "connections": [
+      {
+        "fromIndex": 0,
+        "toIndex": 2,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 0,
+        "toIndex": 2,
+        "type": "Failure"
+      },
+      {
+        "fromIndex": 1,
+        "toIndex": 4,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 1,
+        "toIndex": 2,
+        "type": "Failure"
+      },
+      {
+        "fromIndex": 3,
+        "toIndex": 0,
+        "type": "Failure"
+      },
+      {
+        "fromIndex": 3,
+        "toIndex": 0,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 4,
+        "toIndex": 3,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 4,
+        "toIndex": 0,
+        "type": "Failure"
+      }
+    ],
+    "ruleChainConnections": null
+  }
+}
