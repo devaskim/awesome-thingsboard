@@ -22,7 +22,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 *Ready to use widgets or even widget bundles.*
 
-* [TBD](https://example.com/) - Waiting for your contibution.
+* [Collibellex-Thingsboard-Widgets](https://github.com/rossmann-engineering/Collibellex-Thingsboard-Widgets) - widget library for Thingsboard CE/PE 3.0+
 
 ## Dashboards
 
@@ -34,7 +34,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 *Ready to use rule chains.*
 
-* [TBD](https://example.com/) - Waiting for your contibution.
+* [Thingsboard API token](chain/tb_api_token) - get token to call Thingsboard REST API
 
 ## Rule nodes
 
