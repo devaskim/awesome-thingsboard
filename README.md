@@ -59,7 +59,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 *Awesome repos.*
 
-* [TBD](https://example.com/) - Waiting for your contibution.
+* [Arduino_To_Thingsboard](https://github.com/KudosAbhay/Arduino_To_Thingsboard)) - send data to Thingsboard from Arduino Mega 2560
 
 # Resources
 
