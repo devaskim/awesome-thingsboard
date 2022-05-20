@@ -49,6 +49,12 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [TBD](https://example.com/) - Waiting for your contibution.
 
+## Tools
+
+*Awesome tools.*
+
+* [thingsboard-data-migration](https://github.com/AbCthings/thingsboard-data-migration) - data migration between two instances of ThingsBoard
+
 ## Repos
 
 *Awesome repos.*
