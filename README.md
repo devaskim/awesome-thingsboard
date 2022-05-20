@@ -63,6 +63,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Thebex](https://github.com/fvicent/thebex) - Elixir client for the ThingsBoard REST API
 * [Rthingsboard](https://github.com/DDorch/Rthingsboard) - R package for interacting with the API of ThingsBoard
 * [ThingsBoardDotNet](https://github.com/vgolovanov/ThingsBoardDotNet) - .Net library designed to work with ThingsBoard platform
+* [thingsboard-telemetry-stream](https://github.com/derhuerst/thingsboard-telemetry-stream) - fetch data from the Thingsboard telemetry [WebSocket API](https://thingsboard.io/docs/user-guide/telemetry/#websocket-api)
 
 ## Tools
 
