@@ -54,6 +54,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 *Awesome tools.*
 
 * [thingsboard-data-migration](https://github.com/AbCthings/thingsboard-data-migration) - data migration between two instances of ThingsBoard
+* [Thingsboard-Load-Test](https://github.com/wasslz/Thingsboard-Load-Test) - automated load testing tool for Thingsboard
 
 ## Repos
 
