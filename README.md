@@ -11,6 +11,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
     - [Integrations](#integrations)
         - [Hardware](#hardware)
         - [IoT systems](#iot-systems)
+    - [Deployment](#deployment)
 - [Resources](#resources)
     - [Books](#books)
     - [Newsletters](#newsletters)
@@ -95,6 +96,10 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 ### IoT systems
 
 * (Edgex-thingsboard)[https://github.com/dragonxu/edgex-thingsboard] - micro service that connects Edgex to Thingsboard by MQTT
+
+## Deployment
+
+* [Thingsboard on Nutanix Karbon Platform Services](https://github.com/voxic/Thingsboard_on_KPS) - deploy Thingsboard on-top of [Nutanix Karbon Platform Services](https://www.nutanix.com/products/karbon/platform-services)
 
 # Resources
 
