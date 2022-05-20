@@ -8,7 +8,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
     - [Rule chains](#rule-chains)
     - [Rule nodes](#rule-nodes)
     - [Patches](#patches)
-    - [Repos](#repos)
+    - [Hardware integrations](#hardware-integrations)
 - [Resources](#resources)
     - [Books](#books)
     - [Newsletters](#newsletters)
