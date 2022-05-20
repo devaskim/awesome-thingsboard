@@ -68,6 +68,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [Arduino_To_Thingsboard](https://github.com/KudosAbhay/Arduino_To_Thingsboard) - send data to Thingsboard from Arduino Mega 2560
 * [TTGO-T-Beam-GeoTracker](https://github.com/lemossilva/ThingsBoard-TTGO-T-Beam-GPSTracker-Telemetry) - geotrace each data point
+* [STM32 IoT Discovery Board Tutorial](https://github.com/scottrev/STM32_ThingsBoardDemo)
 
 # Resources
 
