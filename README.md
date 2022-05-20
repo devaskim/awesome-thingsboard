@@ -8,7 +8,9 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
     - [Rule chains](#rule-chains)
     - [Rule nodes](#rule-nodes)
     - [Patches](#patches)
-    - [Hardware integrations](#hardware-integrations)
+    - [Integrations](#integrations)
+        - [Hardware](#hardware)
+        - [IoT systems](#iot-systems)
 - [Resources](#resources)
     - [Books](#books)
     - [Newsletters](#newsletters)
@@ -77,7 +79,9 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [tb-scripts](https://github.com/ICS-Energy-Team/tb-scripts) - Bash scripts for managing Thingsboard database and server
 * [tb-exporter](https://github.com/oats-center/tb-exporter) - script to fetch the data for a DEVICE from ThingsBoard and merge all of the columns into one, easier to use CSV
 
-## Hardware integrations
+## Integrations
+
+### Hardware
 
 * [Arduino_To_Thingsboard](https://github.com/KudosAbhay/Arduino_To_Thingsboard) - send data to Thingsboard from Arduino Mega 2560
 * [TTGO-T-Beam-GeoTracker](https://github.com/lemossilva/ThingsBoard-TTGO-T-Beam-GPSTracker-Telemetry) - geotrace each data point
@@ -87,6 +91,10 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Farm_IoT_ESP32Cam](https://github.com/Dewald928/Farm_IoT_ESP32Cam) - IoT crop monitoring device
 * [qTop_BG9x_AxC_ThingsBoard](https://github.com/iotbotscom/qTop_BG9x_AxC_ThingsBoard) - qTop-BG9x-AxC Adafruit Feather Compatible / Arduino MKR Compatible Shield ThingsBoard Local Condition Monitoring Demo
 * [qTop_BG96_AFC_ThingsBoard](https://github.com/iotbotscom/qTop_BG96_AFC_ThingsBoard) - qTop-BG96-AFC Adafruit Feather Compatible Shield ThingsBoard Local Condition Monitoring Demo
+
+### IoT systems
+
+* (Edgex-thingsboard)[https://github.com/dragonxu/edgex-thingsboard] - micro service that connects Edgex to Thingsboard by MQTT
 
 # Resources
 
