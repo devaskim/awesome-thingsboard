@@ -28,6 +28,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [ATAW](https://github.com/SchweizerischeBundesbahnen/thingsboard-advanced-attribute-widget) - Advanced Thingsboard Attribute Widget
 * [hasankarainfo' widgets](https://github.com/hasankarainfo/ThingsBoard) - widgets bundle includes Last Value Chart, Digital Gauge Card and Delete Time Series widget
 * [Time dependent polygon map widget](https://github.com/argosp/Thingsboard-widgets) - widget displays polygons in different time slices
+* [Image Viewer From Base64](https://github.com/NistantriTech/ThingsboardNTWidgets)
 
 ## Dashboards
 
