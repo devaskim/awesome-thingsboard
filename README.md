@@ -56,6 +56,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 ## SDKs and REST clients
 * [Thingsboard Javascript SDK](https://github.com/acte-technology/thingsboard-js-sdk)
 * [Thebex](https://github.com/fvicent/thebex) - Elixir client for the ThingsBoard REST API
+* [Rthingsboard](https://github.com/DDorch/Rthingsboard) - R package for interacting with the API of ThingsBoard
 
 ## Tools
 
