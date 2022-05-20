@@ -81,6 +81,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [STM32 IoT Discovery Board Tutorial](https://github.com/scottrev/STM32_ThingsBoardDemo)
 * [qESP32 WiFi and Bluetooth ESP32 IOT DevKit](https://github.com/iotbotscom/qESP32_ThingsBoard)
 * [IoT Agriculture Monitoring System](https://github.com/jxwleong/iot-agriculturue-monitoring-system) - monitoring system uses ESP8266 microcontroller such as NodeMCU and WeMos D1 R2
+* [Farm_IoT_ESP32Cam](https://github.com/Dewald928/Farm_IoT_ESP32Cam) - IoT crop monitoring device
 
 # Resources
 
