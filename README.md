@@ -83,6 +83,8 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [qESP32 WiFi and Bluetooth ESP32 IOT DevKit](https://github.com/iotbotscom/qESP32_ThingsBoard)
 * [IoT Agriculture Monitoring System](https://github.com/jxwleong/iot-agriculturue-monitoring-system) - monitoring system uses ESP8266 microcontroller such as NodeMCU and WeMos D1 R2
 * [Farm_IoT_ESP32Cam](https://github.com/Dewald928/Farm_IoT_ESP32Cam) - IoT crop monitoring device
+* [qTop_BG9x_AxC_ThingsBoard](https://github.com/iotbotscom/qTop_BG9x_AxC_ThingsBoard) - qTop-BG9x-AxC Adafruit Feather Compatible / Arduino MKR Compatible Shield ThingsBoard Local Condition Monitoring Demo
+* [qTop_BG96_AFC_ThingsBoard](https://github.com/iotbotscom/qTop_BG96_AFC_ThingsBoard) - qTop-BG96-AFC Adafruit Feather Compatible Shield ThingsBoard Local Condition Monitoring Demo
 
 # Resources
 
