@@ -67,6 +67,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [TB-CLI](https://github.com/HassanMojab/tb-cli) - command-line Interface for Thingsboard
 * [tb-migration](https://github.com/vo-team/tb-migration) - scripts for exporting and importing data using ThingsBoard API
 * [tb-scripts](https://github.com/ICS-Energy-Team/tb-scripts) - Bash scripts for managing Thingsboard database and server
+* [tb-exporter](https://github.com/oats-center/tb-exporter) - script to fetch the data for a DEVICE from ThingsBoard and merge all of the columns into one, easier to use CSV
 
 ## Hardware integrations
 
