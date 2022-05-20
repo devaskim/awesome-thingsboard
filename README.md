@@ -64,11 +64,10 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Thingsboard-Load-Test](https://github.com/wasslz/Thingsboard-Load-Test) - automated load testing tool for Thingsboard
 * [TB-CLI](https://github.com/HassanMojab/tb-cli) - command-line Interface for Thingsboard
 
-## Repos
-
-*Awesome repos.*
+## Hardware integrations
 
 * [Arduino_To_Thingsboard](https://github.com/KudosAbhay/Arduino_To_Thingsboard) - send data to Thingsboard from Arduino Mega 2560
+* [TTGO-T-Beam-GeoTracker](https://github.com/lemossilva/ThingsBoard-TTGO-T-Beam-GPSTracker-Telemetry) - geotrace each data point
 
 # Resources
 
