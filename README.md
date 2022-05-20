@@ -66,6 +66,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Thingsboard-Load-Test](https://github.com/wasslz/Thingsboard-Load-Test) - automated load testing tool for Thingsboard
 * [TB-CLI](https://github.com/HassanMojab/tb-cli) - command-line Interface for Thingsboard
 * [tb-migration](https://github.com/vo-team/tb-migration) - scripts for exporting and importing data using ThingsBoard API
+* [tb-scripts](https://github.com/ICS-Energy-Team/tb-scripts) - Bash scripts for managing Thingsboard database and server
 
 ## Hardware integrations
 
