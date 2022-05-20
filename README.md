@@ -33,6 +33,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [Live-USB-Webcam-Streaming](https://github.com/shiyazt/Live-USB-Webcam-Streaming-on-ThingsBoard-IoT-Platform) - stream USB Webcam to Thingsboard and detects the human faces
 * [Smart-farming-dashboard](https://github.com/arifulmrislam/Smart-farming-dashboard-with-ThingsBoard) - rule chain and dashboard for Thingsboard PE
+* [Fleet monitoring](https://github.com/davetroiano/confluent-thingsboard) - Confluent Cloud / ThingsBoard Cloud integration IoT demo
 
 ## Rule chains
 
@@ -40,6 +41,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [Thingsboard API token](chain/tb_api_token) - get token to call Thingsboard REST API
 * [Smart-farming-dashboard](https://github.com/arifulmrislam/Smart-farming-dashboard-with-ThingsBoard) - rule chain and dashboard for Thingsboard PE
+* [Fleet monitoring](https://github.com/davetroiano/confluent-thingsboard) - Confluent Cloud / ThingsBoard Cloud integration IoT demo
 
 ## Rule nodes
 
