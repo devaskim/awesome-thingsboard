@@ -48,7 +48,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 *Ready to use rule nodes.*
 
-* [node-red-contrib-thingsboard-pe-rest-api(https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api) - Node-RED node for thingsboard-pe-rest-api
+* [node-red-contrib-thingsboard-pe-rest-api](https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api) - Node-RED node for thingsboard-pe-rest-api
 
 ## Patches
 
