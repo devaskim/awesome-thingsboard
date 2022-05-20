@@ -45,7 +45,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 *Ready to use rule nodes.*
 
-* [TBD](https://example.com/) - Waiting for your contibution.
+* [node-red-contrib-thingsboard-pe-rest-api](https://example.com/](https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api) - Node-RED node for thingsboard-pe-rest-api
 
 ## Patches
 
