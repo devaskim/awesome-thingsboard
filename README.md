@@ -26,6 +26,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [AbCthings widgets](https://github.com/AbCthings/thingsboard-widgets) - chart and gauge widgets
 * [thingsboard-widget](https://github.com/caowm/thingsboard-widget) - inter-widget communication, based on [thingsboard/thingsboard#976](https://github.com/thingsboard/thingsboard/issues/976)
 * [ATAW](https://github.com/SchweizerischeBundesbahnen/thingsboard-advanced-attribute-widget) - Advanced Thingsboard Attribute Widget
+* [hasankarainfo' widgets](https://github.com/hasankarainfo/ThingsBoard) - widgets bundle includes Last Value Chart, Digital Gauge Card and Delete Time Series widget
 
 ## Dashboards
 
