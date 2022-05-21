@@ -8,6 +8,8 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
     - [Rule chains](#rule-chains)
     - [Rule nodes](#rule-nodes)
     - [Patches](#patches)
+    - [SDKs and REST clients](#sdks-and-rest-clients)
+    - [Tools](#tools)
     - [Integrations](#integrations)
         - [Hardware](#hardware)
         - [IoT systems](#iot-systems)
@@ -97,7 +99,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### IoT systems
 
-* (Edgex-thingsboard)[https://github.com/dragonxu/edgex-thingsboard] - micro service that connects Edgex to Thingsboard by MQTT
+* [Edgex-thingsboard](https://github.com/dragonxu/edgex-thingsboard) - micro service that connects Edgex to Thingsboard by MQTT
 
 ## Deployment
 
