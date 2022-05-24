@@ -1,0 +1,306 @@
+{
+  "ruleChain": {
+    "additionalInfo": {
+      "description": ""
+    },
+    "name": "Dashboards",
+    "type": "CORE",
+    "firstRuleNodeId": null,
+    "root": false,
+    "debugMode": false,
+    "configuration": null
+  },
+  "metadata": {
+    "firstNodeIndex": 9,
+    "nodes": [
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 299,
+          "layoutY": 91
+        },
+        "type": "org.thingsboard.rule.engine.flow.TbRuleChainInputNode",
+        "name": "Get API token",
+        "debugMode": false,
+        "configuration": {
+          "ruleChainId": "98c5ecb0-d6b7-11ec-9454-733a9917dde4"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 517,
+          "layoutY": 463
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "Update User",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://io.engix.ie/api/user?sendActivationMail=false",
+          "requestMethod": "POST",
+          "useSimpleClientHttpFactory": false,
+          "ignoreRequestBody": false,
+          "enableProxy": false,
+          "useSystemProxyProperties": false,
+          "proxyScheme": null,
+          "proxyHost": null,
+          "proxyPort": 0,
+          "proxyUser": null,
+          "proxyPassword": null,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Authorization": "Bearer ${token}"
+          },
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0,
+          "credentials": {
+            "type": "anonymous"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 518,
+          "layoutY": 329
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "Get User",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://io.engix.ie/api/user/${user}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": false,
+          "ignoreRequestBody": true,
+          "enableProxy": false,
+          "useSystemProxyProperties": false,
+          "proxyScheme": null,
+          "proxyHost": null,
+          "proxyPort": 0,
+          "proxyUser": null,
+          "proxyPassword": null,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Authorization": "Bearer ${token}"
+          },
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0,
+          "credentials": {
+            "type": "anonymous"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 519,
+          "layoutY": 398
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "Dashboard to User",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "msg.additionalInfo.defaultDashboardId = metadata.dashboard;\nmsg.additionalInfo.homeDashboardId = metadata.dashboard;\nmsg.additionalInfo.homeDashboardHideToolbar = true;\nmsg.additionalInfo.defaultDashboardFullscreen = true;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 14,
+          "layoutY": 342
+        },
+        "type": "org.thingsboard.rule.engine.debug.TbMsgGeneratorNode",
+        "name": "Test data",
+        "debugMode": false,
+        "configuration": {
+          "msgCount": 0,
+          "periodInSeconds": 10,
+          "jsScript": "var msg = {\n    \"id\": {\n        \"entityType\": \"USER\",\n        \"id\": \"f8d51d50-ca0b-11ec-8463-fb6d1586df68\"\n    },\n    \"createdTime\": 1652726696022,\n    \"additionalInfo\": {\n        \"description\": \"\",\n        \"defaultDashboardId\": null,\n        \"defaultDashboardFullscreen\": false,\n        \"homeDashboardId\": null,\n        \"homeDashboardHideToolbar\": true\n    },\n    \"tenantId\": {\n        \"entityType\": \"TENANT\",\n        \"id\": \"aef110c0-a073-11ec-80e2-e11698323e4b\"\n    },\n    \"customerId\": {\n        \"entityType\": \"CUSTOMER\",\n        \"id\": \"f13312f0-ca0b-11ec-8463-fb6d1586df68\"\n    },\n    \"email\": \"test@test.com\",\n    \"authority\": \"CUSTOMER_USER\",\n    \"firstName\": \"test\",\n    \"lastName\": \"test\",\n    \"name\": \"test@test.com\"\n};\nvar metadata = { deviceName: 'Test' };\nvar msgType = \"ENTITY_CREATED\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+          "originatorId": null,
+          "originatorType": null
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 204,
+          "layoutY": 261
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "Dashboard to Customer",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://io.engix.ie/api/customer/${customer}/dashboard/${dashboard}",
+          "requestMethod": "POST",
+          "useSimpleClientHttpFactory": false,
+          "ignoreRequestBody": true,
+          "enableProxy": false,
+          "useSystemProxyProperties": false,
+          "proxyScheme": null,
+          "proxyHost": null,
+          "proxyPort": 0,
+          "proxyUser": null,
+          "proxyPassword": null,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Authorization": "Bearer ${token}"
+          },
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0,
+          "credentials": {
+            "type": "anonymous"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 719,
+          "layoutY": 81
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "Dashboard id to metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.dashboard = msg.data[0].id.id;\nreturn {msg: {}, metadata: metadata, msgType: msgType};"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 508,
+          "layoutY": 7
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "Find dashboard id",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://io.engix.ie/api/tenant/dashboards?textSearch=${dashboard}&pageSize=10&page=0",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": false,
+          "ignoreRequestBody": null,
+          "enableProxy": false,
+          "useSystemProxyProperties": false,
+          "proxyScheme": null,
+          "proxyHost": null,
+          "proxyPort": 0,
+          "proxyUser": null,
+          "proxyPassword": null,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Authorization": "Bearer ${token}"
+          },
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0,
+          "credentials": {
+            "type": "anonymous"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 180,
+          "layoutY": 7
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "Configuration",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (metadata.authority === 'CUSTOMER_USER') {\n    metadata.dashboard = \"NAME_OF_DASHBOARD_FOR_USERS\";\n} else if (metadata.authority === 'TENANT_ADMIN') {\n    metadata.dashboard = \"NAME_OF_DASHBOARD_FOR_ADMINS\";\n}\n\nmetadata.user = msg.id.id;\nmetadata.customer = msg.customerId.id;\nmetadata.tenant = msg.tenantId.id;\nmetadata.authority = msg.authority;\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 64,
+          "layoutY": 91
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Is user?",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg.id.entityType === 'USER';"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 521,
+          "layoutY": 175
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsSwitchNode",
+        "name": "What user type?",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (metadata.authority === 'CUSTOMER_USER') {\n    return [ 'User' ];\n} else if (metadata.authority === 'TENANT_ADMIN') {\n    return [ 'Admin' ];\n}\nreturn [ 'Other' ];"
+        }
+      }
+    ],
+    "connections": [
+      {
+        "fromIndex": 0,
+        "toIndex": 7,
+        "type": "End"
+      },
+      {
+        "fromIndex": 2,
+        "toIndex": 3,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 3,
+        "toIndex": 1,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 5,
+        "toIndex": 2,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 6,
+        "toIndex": 10,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 7,
+        "toIndex": 6,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 8,
+        "toIndex": 0,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 9,
+        "toIndex": 8,
+        "type": "True"
+      },
+      {
+        "fromIndex": 10,
+        "toIndex": 2,
+        "type": "Admin"
+      },
+      {
+        "fromIndex": 10,
+        "toIndex": 5,
+        "type": "User"
+      }
+    ],
+    "ruleChainConnections": null
+  }
+}
