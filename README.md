@@ -35,6 +35,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Time dependent polygon map widget](https://github.com/argosp/Thingsboard-widgets) - widget displays polygons in different time slices
 * [Image Viewer From Base64](https://github.com/NistantriTech/ThingsboardNTWidgets)
 * [Simple Button With HTTP Request](https://github.com/MathieuHalle/ThingsBoard-Widgets)
+* [QR code scanner](widget/qr-code-scanner) - decode QR code using web or phone camera
 
 ## Dashboards
 
