@@ -1,0 +1,55 @@
+diff --git a/ui-ngx/src/app/core/services/utils.service.ts b/ui-ngx/src/app/core/services/utils.service.ts
+index fcef76f612..05a96fed29 100644
+--- a/ui-ngx/src/app/core/services/utils.service.ts
++++ b/ui-ngx/src/app/core/services/utils.service.ts
+@@ -88,6 +88,7 @@ export class UtilsService {
+ 
+   iframeMode = false;
+   widgetEditMode = false;
++  isMobile:boolean = null;
+   editWidgetInfo: WidgetInfo = null;
+ 
+   defaultDataKey: DataKey = {
+@@ -474,4 +475,11 @@ export class UtilsService {
+       return defaultValue;
+     }
+   }
++
++  public isMobileDevice(): boolean {
++    if (this.isMobile === null) {
++       this.isMobile = this.window.matchMedia('only screen and (max-width: 768px)').matches;
++    }
++    return this.isMobile;
++  }
+ }
+diff --git a/ui-ngx/src/app/modules/home/components/widget/lib/flot-widget.ts b/ui-ngx/src/app/modules/home/components/widget/lib/flot-widget.ts
+index 70ac80534e..e08a5f44ce 100644
+--- a/ui-ngx/src/app/modules/home/components/widget/lib/flot-widget.ts
++++ b/ui-ngx/src/app/modules/home/components/widget/lib/flot-widget.ts
+@@ -179,7 +179,7 @@ export class TbFlot {
+         autoHighlight: this.tooltipIndividual === true,
+         markings: []
+       },
+-      selection : { mode : 'x' },
++      selection : { mode : this.getSelectionMode() },
+       legend : {
+         show: false
+       }
+@@ -1147,7 +1147,7 @@ export class TbFlot {
+   private enableMouseEvents() {
+     this.$element.css('pointer-events', '');
+     this.$element.addClass('mouse-events');
+-    this.options.selection = { mode : 'x' };
++    this.options.selection = { mode : this.getSelectionMode() };
+     this.$element.bind('plothover', this.flotHoverHandler);
+     this.$element.bind('plotselected', this.flotSelectHandler);
+     this.$element.bind('dblclick', this.dblclickHandler);
+@@ -1477,4 +1477,8 @@ export class TbFlot {
+     }
+   }
+ 
++  private getSelectionMode(): JQueryPlotSelectionMode {
++    return this.utils.isMobileDevice() ? null : 'x';
++  }
++
+ }

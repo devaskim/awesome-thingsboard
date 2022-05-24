@@ -64,7 +64,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 *Awesome patches.*
 
-* [TBD](https://example.com/) - Waiting for your contibution.
+* [Disable chart selection feature](https://example.com/) - make chart scrolling on mobile device more comfortable.
 
 ## SDKs and REST clients
 * [Thingsboard Javascript SDK](https://github.com/acte-technology/thingsboard-js-sdk)
