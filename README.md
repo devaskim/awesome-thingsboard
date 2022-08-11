@@ -90,6 +90,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### Hardware
 
+* [Weight scale IoT by ESP32](https://github.com/coniferconifer/ESP32-HX711-MQTT)
 * [Arduino_To_Thingsboard](https://github.com/KudosAbhay/Arduino_To_Thingsboard) - send data to Thingsboard from Arduino Mega 2560
 * [TTGO-T-Beam-GeoTracker](https://github.com/lemossilva/ThingsBoard-TTGO-T-Beam-GPSTracker-Telemetry) - geotrace each data point
 * [STM32 IoT Discovery Board Tutorial](https://github.com/scottrev/STM32_ThingsBoardDemo)
@@ -103,6 +104,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 ### IoT systems
 
 * [Edgex-thingsboard](https://github.com/dragonxu/edgex-thingsboard) - micro service that connects Edgex to Thingsboard by MQTT
+* [rusty-mqtt](https://github.com/lrazovic/rusty-mqtt) - a bridge between the MQTT broker of TTN and ThingsBoard in Rust
 
 ## Deployment
 
