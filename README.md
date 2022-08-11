@@ -90,6 +90,9 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### Hardware
 
+* [LORAPERTURA](https://github.com/fergar73/LORAPERTURA) - IOT device in the things network for door status and weather station
+* [CF Arduino Humidifier](https://github.com/caiofrota/cf-arduino-humidifier) - configurable humidifier using ESP8266, ultrasonic atomizer and ThingsBoard as server
+* [SGP30](https://github.com/rendzina/SGP30) - SGP30 CO2 and VOC Sensing with A Raspberry Pi
 * [Weight scale IoT by ESP32](https://github.com/coniferconifer/ESP32-HX711-MQTT)
 * [Arduino_To_Thingsboard](https://github.com/KudosAbhay/Arduino_To_Thingsboard) - send data to Thingsboard from Arduino Mega 2560
 * [TTGO-T-Beam-GeoTracker](https://github.com/lemossilva/ThingsBoard-TTGO-T-Beam-GPSTracker-Telemetry) - geotrace each data point
