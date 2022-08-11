@@ -90,6 +90,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### Hardware
 
+* [IoT Agriculture Monitoring System](https://github.com/jxwleong/iot-agriculturue-monitoring-system) - monitoring system uses ESP8266 microcontroller such as NodeMCU and WeMos D1 R2 to monitor and upload plant's parameters
 * [LORAPERTURA](https://github.com/fergar73/LORAPERTURA) - IOT device in the things network for door status and weather station
 * [CF Arduino Humidifier](https://github.com/caiofrota/cf-arduino-humidifier) - configurable humidifier using ESP8266, ultrasonic atomizer and ThingsBoard as server
 * [SGP30](https://github.com/rendzina/SGP30) - SGP30 CO2 and VOC Sensing with A Raspberry Pi
