@@ -108,6 +108,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### IoT systems
 
+* [thoscy](https://github.com/zkmkarlsruhe/thoscy) - relay messages between a ThingsBoard server and OSC (Open Sound Control) 
 * [Edgex-thingsboard](https://github.com/dragonxu/edgex-thingsboard) - micro service that connects Edgex to Thingsboard by MQTT
 * [rusty-mqtt](https://github.com/lrazovic/rusty-mqtt) - a bridge between the MQTT broker of TTN and ThingsBoard in Rust
 
