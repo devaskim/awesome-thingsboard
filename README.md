@@ -85,6 +85,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [tb-scripts](https://github.com/ICS-Energy-Team/tb-scripts) - Bash scripts for managing Thingsboard database and server
 * [tb-exporter](https://github.com/oats-center/tb-exporter) - script to fetch the data for a DEVICE from ThingsBoard and merge all of the columns into one, easier to use CSV
 * [thingsboard-sandbox](https://github.com/a631953720/thingsboard-sandbox) - simple service that can listen the request and response result
+* [Grafana/Prometheus for Docker monolith](https://github.com/den1jkee/ThingsboardSupport/tree/monitoring_docker/monitoring/docker-monolith)
 
 ## Integrations
 
