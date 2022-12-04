@@ -92,6 +92,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### Hardware
 
+* [Chirpstack http integration from CNDINGTEK lorawan sensor](https://github.com/cndingtek/Chirpstack_Http_JS)
 * [tfluna](https://github.com/zkmkarlsruhe/tfluna) - forward TF-Luna LIDAR sensor events over OSC, UDP, or Thingsboard.
 * [IoT Agriculture Monitoring System](https://github.com/jxwleong/iot-agriculturue-monitoring-system) - monitoring system uses ESP8266 microcontroller such as NodeMCU and WeMos D1 R2 to monitor and upload plant's parameters
 * [LORAPERTURA](https://github.com/fergar73/LORAPERTURA) - IOT device in the things network for door status and weather station
