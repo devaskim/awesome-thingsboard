@@ -92,6 +92,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### Hardware
 
+* [ESP32-PulseMeter](https://github.com/jpajzinka/ESP32-PulseMeter)
 * [ESP32 ThingsBoard MQTT Client library](https://github.com/liang-zhu-zi/esp32-thingsboard-mqtt-client)
 * [Chirpstack http integration from CNDINGTEK lorawan sensor](https://github.com/cndingtek/Chirpstack_Http_JS)
 * [tfluna](https://github.com/zkmkarlsruhe/tfluna) - forward TF-Luna LIDAR sensor events over OSC, UDP, or Thingsboard.
