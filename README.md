@@ -67,6 +67,8 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Disable chart selection feature](patch/disable-chart-selection-feature-on-mobile) - make chart scrolling on mobile device more comfortable.
 
 ## SDKs and REST clients
+
+* [thingsboard-ruby](https://github.com/ioki-mobility/thingsboard-ruby)
 * [Thingsboard.NET](https://github.com/nepton/Thingsboard.Net) - .NET client library for Thingsboard IoT Platform
 * [Thingsboard Javascript SDK](https://github.com/acte-technology/thingsboard-js-sdk)
 * [Thebex](https://github.com/fvicent/thebex) - Elixir client for the ThingsBoard REST API
