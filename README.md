@@ -68,6 +68,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## SDKs and REST clients
 
+* [Esys Thingsboard Client](https://github.com/esysberlin/esys-thingsboard-client) - .Net HTTP and MQTT Api client for Thingsboard.io.
 * [thingsboard-ruby](https://github.com/ioki-mobility/thingsboard-ruby)
 * [Thingsboard.NET](https://github.com/nepton/Thingsboard.Net) - .NET client library for Thingsboard IoT Platform
 * [Thingsboard Javascript SDK](https://github.com/acte-technology/thingsboard-js-sdk)
