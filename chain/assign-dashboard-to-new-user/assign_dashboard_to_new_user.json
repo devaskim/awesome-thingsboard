@@ -36,7 +36,7 @@
         "name": "Update User",
         "debugMode": false,
         "configuration": {
-          "restEndpointUrlPattern": "https://io.engix.ie/api/user?sendActivationMail=false",
+          "restEndpointUrlPattern": "https://demo.thingsboard.io/api/user?sendActivationMail=false",
           "requestMethod": "POST",
           "useSimpleClientHttpFactory": false,
           "ignoreRequestBody": false,
@@ -71,7 +71,7 @@
         "name": "Get User",
         "debugMode": false,
         "configuration": {
-          "restEndpointUrlPattern": "https://io.engix.ie/api/user/${user}",
+          "restEndpointUrlPattern": "https://demo.thingsboard.io/api/user/${user}",
           "requestMethod": "GET",
           "useSimpleClientHttpFactory": false,
           "ignoreRequestBody": true,
@@ -136,7 +136,7 @@
         "name": "Dashboard to Customer",
         "debugMode": false,
         "configuration": {
-          "restEndpointUrlPattern": "https://io.engix.ie/api/customer/${customer}/dashboard/${dashboard}",
+          "restEndpointUrlPattern": "https://demo.thingsboard.io/api/customer/${customer}/dashboard/${dashboard}",
           "requestMethod": "POST",
           "useSimpleClientHttpFactory": false,
           "ignoreRequestBody": true,
@@ -184,7 +184,7 @@
         "name": "Find dashboard id",
         "debugMode": false,
         "configuration": {
-          "restEndpointUrlPattern": "https://io.engix.ie/api/tenant/dashboards?textSearch=${dashboard}&pageSize=10&page=0",
+          "restEndpointUrlPattern": "https://demo.thingsboard.io/api/tenant/dashboards?textSearch=${dashboard}&pageSize=10&page=0",
           "requestMethod": "GET",
           "useSimpleClientHttpFactory": false,
           "ignoreRequestBody": null,
