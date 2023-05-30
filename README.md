@@ -37,6 +37,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Simple Button With HTTP Request](https://github.com/MathieuHalle/ThingsBoard-Widgets)
 * [QR code scanner](widget/qr-code-scanner) - decode QR code using web or phone camera
 * [Circle progress bar in table](https://github.com/thingsboard/thingsboard/issues/8462#issuecomment-1531219883)
+* [Custom Widgets](https://github.com/AlexVishwa/thingsboardCustomWidgets) - several custom widgets
 
 ## Dashboards
 
@@ -69,6 +70,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## SDKs and REST clients
 
+* [Laravel ThingsBoard.io Client](https://github.com/jalallinux/laravel-thingsboard) - PHP Laravel client
 * [Esys Thingsboard Client](https://github.com/esysberlin/esys-thingsboard-client) - .Net HTTP and MQTT Api client for Thingsboard.io.
 * [thingsboard-ruby](https://github.com/ioki-mobility/thingsboard-ruby)
 * [Thingsboard.NET](https://github.com/nepton/Thingsboard.Net) - .NET client library for Thingsboard IoT Platform
