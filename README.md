@@ -98,6 +98,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### Hardware
 
+* [Avantec Thermostat ](https://github.com/avantec-iot/avantec-thingsboard) - Using Avantec HVAC device with ThingsBoard
 * [ESP32-Thingsboard-IoT-Dashboard](https://github.com/hubamatyas/ESP32-Thingsboard-IoT-Dashboard) - MQTT and I2C protocols to set up cloud-enabled dashboard with ESP32 and Arduino
 * [TTGO ESP32 CO2 Monitor](https://github.com/raulgotor/co2monitor)
 * [ESP32-PulseMeter](https://github.com/jpajzinka/ESP32-PulseMeter)
