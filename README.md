@@ -32,6 +32,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [QR code scanner](widget/qr-code-scanner) - decode QR code using web or phone camera
 * [Circle progress bar in table](https://github.com/thingsboard/thingsboard/issues/8462#issuecomment-1531219883)
 * [Custom Widgets](https://github.com/AlexVishwa/thingsboardCustomWidgets) - several custom widgets
+* [Energy widget for IRIS](https://github.com/novaotp/iris-energy-widget?tab=readme-ov-file) - simple energy widget with real-time data
 
 ## Dashboards
 
