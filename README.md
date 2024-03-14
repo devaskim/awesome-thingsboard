@@ -105,6 +105,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [qTop_BG9x_AxC_ThingsBoard](https://github.com/iotbotscom/qTop_BG9x_AxC_ThingsBoard) - qTop-BG9x-AxC Adafruit Feather Compatible / Arduino MKR Compatible Shield ThingsBoard Local Condition Monitoring Demo
 * [qTop_BG96_AFC_ThingsBoard](https://github.com/iotbotscom/qTop_BG96_AFC_ThingsBoard) - qTop-BG96-AFC Adafruit Feather Compatible Shield ThingsBoard Local Condition Monitoring Demo
 * [Park-Assist-with-Thingsboard-and-Telegram](https://github.com/abferguson/Park-Assist-with-Thingsboard-and-Telegram) - An ESP8266-based device using ultrasonic sensor to help driver park car at the correct position
+* [smart-home-security](https://github.com/spacesick/smart-home-security) - mock smart home security system
 
 ### IoT systems
 
