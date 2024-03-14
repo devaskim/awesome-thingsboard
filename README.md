@@ -81,7 +81,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [AI based IoT Smart Farming Solution](https://github.com/IoT-Communications/Smart-Farming)
 * [Embedded-System-for-Chronic-Disease-Patient-Monitoring-using-IoT](https://github.com/MohamedAliHaoufa/Embedded-System-for-Chronic-Disease-Patient-Monitoring-using-IoT)
-* [Offline-first Smart Energy Montoring](https://github.com/arashsm79/OFMon)
+* [Offline-first Smart Energy Monitoring](https://github.com/arashsm79/OFMon)
 
 ### Hardware
 
@@ -113,6 +113,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [thoscy](https://github.com/zkmkarlsruhe/thoscy) - relay messages between a ThingsBoard server and OSC (Open Sound Control) 
 * [Edgex-thingsboard](https://github.com/dragonxu/edgex-thingsboard) - micro service that connects Edgex to Thingsboard by MQTT
 * [rusty-mqtt](https://github.com/lrazovic/rusty-mqtt) - a bridge between the MQTT broker of TTN and ThingsBoard in Rust
+* [Thingboard Smart Gateway](https://github.com/oalles/thingsboard-smartgw) - POC for distributed event driven application based on Redis, Spring Boot 3 and Apache Camel 4
 
 ## Deployment
 
