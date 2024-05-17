@@ -3,6 +3,7 @@
 A curated list of awesome Thingsboard cool things that for some reasons still are not in [the official repository](https://github.com/thingsboard):
 
 - [Awesome Thingsboard](#awesome-thingsboard)
+    - [Actions](#actions)
     - [Widgets](#widgets)
     - [Dashboards](#dashboards)
     - [Rule chains](#rule-chains)
@@ -18,6 +19,9 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 - [Contributing](#contributing)
 
 ---
+
+## Actions
+ * [Export Image to File](https://github.com/thingsboard/thingsboard/issues/10808)
 
 ## Widgets
 
