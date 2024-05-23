@@ -22,6 +22,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## Actions
  * [Export Image to File](https://github.com/thingsboard/thingsboard/issues/10808)
+ * [Back Button](https://github.com/thingsboard/thingsboard/issues/10819)
 
 ## Widgets
 
