@@ -3,7 +3,7 @@
 A curated list of awesome Thingsboard cool things that for some reasons still are not in [the official repository](https://github.com/thingsboard):
 
 - [Awesome Thingsboard](#awesome-thingsboard)
-    - [Actions](#actions)
+    - [Code Snippets](#code-snippets)
     - [Widgets](#widgets)
     - [Dashboards](#dashboards)
     - [Rule chains](#rule-chains)
@@ -20,9 +20,10 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ---
 
-## Actions
+## Code Snippets
  * [Export Image to File](https://github.com/thingsboard/thingsboard/issues/10808)
  * [Back Button](https://github.com/thingsboard/thingsboard/issues/10819)
+ * [Location from Browser](https://github.com/thingsboard/thingsboard/issues/10891#issuecomment-2138274640)
 
 ## Widgets
 
