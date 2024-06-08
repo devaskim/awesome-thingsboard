@@ -24,6 +24,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
  * [Export Image to File](https://github.com/thingsboard/thingsboard/issues/10808)
  * [Back Button](https://github.com/thingsboard/thingsboard/issues/10819)
  * [Location from Browser](https://github.com/thingsboard/thingsboard/issues/10891#issuecomment-2138274640)
+ * [Colorize table rows without row style function](https://github.com/thingsboard/thingsboard/issues/10935#issuecomment-2155813206)
 
 ## Widgets
 
