@@ -8,7 +8,6 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
     - [Dashboards](#dashboards)
     - [Rule chains](#rule-chains)
     - [Rule nodes](#rule-nodes)
-    - [Patches](#patches)
     - [SDKs and REST clients](#sdks-and-rest-clients)
     - [Tools](#tools)
     - [Integrations](#integrations)
@@ -16,6 +15,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
         - [Hardware](#hardware)
         - [IoT systems](#iot-systems)
     - [Deployment](#deployment)
+    - [Administration](#administration)
 - [Contributing](#contributing)
 
 ---
@@ -47,16 +47,16 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Smart-farming-dashboard](https://github.com/arifulmrislam/Smart-farming-dashboard-with-ThingsBoard) - rule chain and dashboard for Thingsboard PE
 * [Fleet monitoring](https://github.com/davetroiano/confluent-thingsboard) - Confluent Cloud / ThingsBoard Cloud integration IoT demo
 
+## Rule nodes
+
+* [node-red-contrib-thingsboard-pe-rest-api](https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api) - Node-RED node for thingsboard-pe-rest-api
+
 ## Rule chains
 
 * [Thingsboard API token](chain/tb_api_token) - get token to call Thingsboard REST API
 * [Smart-farming-dashboard](https://github.com/arifulmrislam/Smart-farming-dashboard-with-ThingsBoard) - rule chain and dashboard for Thingsboard PE
 * [Fleet monitoring](https://github.com/davetroiano/confluent-thingsboard) - Confluent Cloud / ThingsBoard Cloud integration IoT demo
 * [Assign dashboard to new user](chain/assign-dashboard-to-new-user)
-
-## Rule nodes
-
-* [node-red-contrib-thingsboard-pe-rest-api](https://github.com/akashtalole/node-red-contrib-thingsboard-pe-rest-api) - Node-RED node for thingsboard-pe-rest-api
 
 ## SDKs and REST clients
 
@@ -127,6 +127,11 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [thingsboard-aws-eb](https://github.com/rubenmromero/thingsboard-aws-eb) - ThingsBoard dockerized application deployment to AWS Elastic Beanstalk
 * [Thingsboard on Nutanix Karbon Platform Services](https://github.com/voxic/Thingsboard_on_KPS) - deploy Thingsboard on-top of [Nutanix Karbon Platform Services](https://www.nutanix.com/products/karbon/platform-services)
+
+## Administration
+
+* [Startup failures of rule chain nodes](https://github.com/thingsboard/thingsboard/issues/6492#issuecomment-2161165824)
+* [Java heap configuration in Kubernetes](https://github.com/thingsboard/thingsboard/issues/10960#issuecomment-2161116976)
 
 # Contributing
 
