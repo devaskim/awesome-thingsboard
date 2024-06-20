@@ -132,6 +132,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [Startup failures of rule chain nodes](https://github.com/thingsboard/thingsboard/issues/6492#issuecomment-2161165824)
 * [Java heap configuration in Kubernetes](https://github.com/thingsboard/thingsboard/issues/10960#issuecomment-2161116976)
+* [Redis policy for caching attributes](https://github.com/thingsboard/thingsboard/issues/6568#issuecomment-2175999705)
 
 # Contributing
 
