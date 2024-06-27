@@ -54,6 +54,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 ## Rule chains
 
 * [Thingsboard API token](chain/tb_api_token) - get token to call Thingsboard REST API
+* [TTL for Postgres database](https://github.com/thingsboard/thingsboard/issues/11095#issuecomment-2191926770)
 * [Smart-farming-dashboard](https://github.com/arifulmrislam/Smart-farming-dashboard-with-ThingsBoard) - rule chain and dashboard for Thingsboard PE
 * [Fleet monitoring](https://github.com/davetroiano/confluent-thingsboard) - Confluent Cloud / ThingsBoard Cloud integration IoT demo
 * [Assign dashboard to new user](chain/assign-dashboard-to-new-user)
