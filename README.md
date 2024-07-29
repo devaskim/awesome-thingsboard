@@ -117,6 +117,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### IoT systems
 
+* [tasmota-thingsboard-daemon](https://github.com/t0mer/tasmota-thingsboard-daemon) - bridge between tasmota devices and ThingsBoard server
 * [IoTGateway](https://github.com/iioter/iotgateway) - a cross-platform IoT gateway based on .net6
 * [The Things Stack to ThingsBoard Community Edition connector](https://github.com/rroemhild/tts-thingsboard-connector)
 * [Thingsboard-HomematicIP Bridge](https://github.com/mpolitze/thingsboard-homematic-client)
