@@ -117,6 +117,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### IoT systems
 
+* [IoTGateway](https://github.com/iioter/iotgateway) - a cross-platform IoT gateway based on .net6
 * [The Things Stack to ThingsBoard Community Edition connector](https://github.com/rroemhild/tts-thingsboard-connector)
 * [Thingsboard-HomematicIP Bridge](https://github.com/mpolitze/thingsboard-homematic-client)
 * [thoscy](https://github.com/zkmkarlsruhe/thoscy) - relay messages between a ThingsBoard server and OSC (Open Sound Control) 
