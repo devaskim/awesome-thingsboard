@@ -30,6 +30,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 * [Collibellex-Thingsboard-Widgets](https://github.com/rossmann-engineering/Collibellex-Thingsboard-Widgets) - widget library for Thingsboard CE/PE 3.0+
 * [Multiple Devices in HTML/Markdown widget](https://github.com/thingsboard/thingsboard/issues/10577#issuecomment-2272958117)
+* [Cards Rendering Widget](https://github.com/thingsboard/thingsboard/issues/11243#issuecomment-2275872186)
 * [AbCthings widgets](https://github.com/AbCthings/thingsboard-widgets) - chart and gauge widgets
 * [thingsboard-widget](https://github.com/caowm/thingsboard-widget) - inter-widget communication, based on [thingsboard/thingsboard#976](https://github.com/thingsboard/thingsboard/issues/976)
 * [ATAW](https://github.com/SchweizerischeBundesbahnen/thingsboard-advanced-attribute-widget) - Advanced Thingsboard Attribute Widget
