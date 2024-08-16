@@ -21,6 +21,8 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 ---
 
 ## Code Snippets
+
+ * [Widget Time Window Callback](https://github.com/thingsboard/thingsboard/issues/11408#issuecomment-2290740622)
  * [Export Image to File](https://github.com/thingsboard/thingsboard/issues/10808)
  * [Back Button](https://github.com/thingsboard/thingsboard/issues/10819)
  * [Location from Browser](https://github.com/thingsboard/thingsboard/issues/10891#issuecomment-2138274640)
