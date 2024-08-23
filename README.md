@@ -57,6 +57,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## Rule chains
 
+* [Workaround for Cyclic Rule Chains Scenario](https://github.com/thingsboard/thingsboard/issues/7577#issuecomment-2306395426)
 * [Thingsboard API token](chain/tb_api_token) - get token to call Thingsboard REST API
 * [TTL for Postgres database](https://github.com/thingsboard/thingsboard/issues/11095#issuecomment-2191926770)
 * [Smart-farming-dashboard](https://github.com/arifulmrislam/Smart-farming-dashboard-with-ThingsBoard) - rule chain and dashboard for Thingsboard PE
@@ -65,7 +66,6 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## SDKs and REST clients
 
-* [Workaround for Cyclic Rule Chains Scenario](https://github.com/thingsboard/thingsboard/issues/7577#issuecomment-2306395426)
 * [Laravel ThingsBoard.io Client](https://github.com/jalallinux/laravel-thingsboard) - PHP Laravel client
 * [Esys Thingsboard Client](https://github.com/esysberlin/esys-thingsboard-client) - .Net HTTP and MQTT Api client for Thingsboard.io.
 * [thingsboard-ruby](https://github.com/ioki-mobility/thingsboard-ruby)
