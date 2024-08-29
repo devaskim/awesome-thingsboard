@@ -44,7 +44,8 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [Circle progress bar in table](https://github.com/thingsboard/thingsboard/issues/8462#issuecomment-1531219883)
 * [Custom Widgets](https://github.com/AlexVishwa/thingsboardCustomWidgets) - several custom widgets
 * [Energy widget for IRIS](https://github.com/novaotp/iris-energy-widget?tab=readme-ov-file) - simple energy widget with real-time data
-
+* [Menu based on (customer) device types](https://github.com/thingsboard/thingsboard/issues/11506#issuecomment-2317241704)
+ 
 ## Dashboards
 
 * [Live-USB-Webcam-Streaming](https://github.com/shiyazt/Live-USB-Webcam-Streaming-on-ThingsBoard-IoT-Platform) - stream USB Webcam to Thingsboard and detects the human faces
