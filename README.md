@@ -22,6 +22,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## Code Snippets
 
+ * [Call REST endpoints that are not exposed in service map](https://github.com/thingsboard/thingsboard/issues/12334#issuecomment-2561829844)
  * [Assign default dashboard to user with fullscreen mode](https://github.com/thingsboard/thingsboard/issues/8599#issuecomment-1558515882)
  * [Widget Time Window Callback](https://github.com/thingsboard/thingsboard/issues/11408#issuecomment-2290740622)
  * [Export Image to File](https://github.com/thingsboard/thingsboard/issues/10808)
