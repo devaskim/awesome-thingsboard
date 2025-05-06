@@ -22,6 +22,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## Code Snippets
 
+ * [Custom action to dynamically add data key to chart](https://github.com/thingsboard/thingsboard/issues/13000#issuecomment-2855552949)
  * [Calling mobile action programatically](https://github.com/thingsboard/thingsboard/issues/13091#issuecomment-2778619193)
  * [How to remove state ids from dashboard toolbar](https://github.com/thingsboard/thingsboard/issues/12984#issuecomment-2739814278)
  * [Custom SVG as map marker](https://github.com/thingsboard/thingsboard/issues/12674https://github.com/thingsboard/thingsboard/issues/12674)
