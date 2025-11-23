@@ -10,6 +10,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
     - [Rule nodes](#rule-nodes)
     - [SDKs and REST clients](#sdks-and-rest-clients)
     - [Tools](#tools)
+    - [Customizations](#customizations)
     - [Integrations](#integrations)
         - [Solutions](#solutions)
         - [Hardware](#hardware)
@@ -95,6 +96,10 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 * [tb-exporter](https://github.com/oats-center/tb-exporter) - script to fetch the data for a DEVICE from ThingsBoard and merge all of the columns into one, easier to use CSV
 * [thingsboard-sandbox](https://github.com/a631953720/thingsboard-sandbox) - simple service that can listen the request and response result
 * [Grafana/Prometheus for Docker monolith](https://github.com/den1jkee/ThingsboardSupport/tree/monitoring_docker/monitoring/docker-monolith)
+
+## Customizations
+
+* [Thingsboard UI Vue3](https://github.com/oliver225/thingsboard-ui-vue3)
 
 ## Integrations
 
