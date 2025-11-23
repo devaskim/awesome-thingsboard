@@ -138,6 +138,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### IoT systems
 
+* [thingsboard-forward-broker](https://github.com/phanuphun/thingsboard-forward-broker) - forward internal broker to external broker
 * [Public Dashboard with User Registration and Device Management](https://github.com/DanielBustillos/Users-self-registration-Thingsboard-community-edition)
 * [tasmota-thingsboard-daemon](https://github.com/t0mer/tasmota-thingsboard-daemon) - bridge between tasmota devices and ThingsBoard server
 * [IoTGateway](https://github.com/iioter/iotgateway) - a cross-platform IoT gateway based on .net6
