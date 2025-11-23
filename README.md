@@ -75,6 +75,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## SDKs and REST clients
 
+* [ThingsBoardLink](https://github.com/Miraitowa-la/ThingsBoardLink?tab=readme-ov-file) - high-level IoT platform interaction toolkit designed for Python developers
 * [Swift administration / user-space API (not device API) client](https://github.com/JoooHannesk/tbrestclientlib)
 * [Laravel ThingsBoard.io Client](https://github.com/jalallinux/laravel-thingsboard) - PHP Laravel client
 * [Esys Thingsboard Client](https://github.com/esysberlin/esys-thingsboard-client) - .Net HTTP and MQTT Api client for Thingsboard.io.
