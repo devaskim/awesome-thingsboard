@@ -106,6 +106,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ### Solutions
 
+* [Professional DLMS/COSEM multi-meter data acquisition system](https://github.com/jsebgiraldo/dlms-multi-meter-bridge)
 * [AI based IoT Smart Farming Solution](https://github.com/IoT-Communications/Smart-Farming)
 * [Embedded-System-for-Chronic-Disease-Patient-Monitoring-using-IoT](https://github.com/MohamedAliHaoufa/Embedded-System-for-Chronic-Disease-Patient-Monitoring-using-IoT)
 * [Offline-first Smart Energy Monitoring](https://github.com/arashsm79/OFMon)
