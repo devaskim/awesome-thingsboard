@@ -89,6 +89,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## Tools
 
+* [Meta2D ThingsBoard Designer](https://github.com/TheXiong/meta2d-thingsboard-designer)
 * [Thingsboard tools](https://github.com/a631953720/thingsboard-tools2.0/blob/main/Readme-ENG.md) - provides API service with various features
 * [thingsboard-data-migration](https://github.com/AbCthings/thingsboard-data-migration) - data migration between two instances of ThingsBoard
 * [Thingsboard-Load-Test](https://github.com/wasslz/Thingsboard-Load-Test) - automated load testing tool for Thingsboard
