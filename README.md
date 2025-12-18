@@ -23,6 +23,7 @@ A curated list of awesome Thingsboard cool things that for some reasons still ar
 
 ## Code Snippets
 
+ * [Retrieve zoomed start and end time for a line chart](https://github.com/thingsboard/thingsboard/issues/14071#issuecomment-3667965891)
  * [Ignore infinite onDataUpdated() Calls in Custom Time Series Widget](https://github.com/thingsboard/thingsboard/issues/12499#issuecomment-3376490511)
  * [Custom action to dynamically add data key to chart](https://github.com/thingsboard/thingsboard/issues/13000#issuecomment-2855552949)
  * [Calling mobile action programatically](https://github.com/thingsboard/thingsboard/issues/13091#issuecomment-2778619193)
